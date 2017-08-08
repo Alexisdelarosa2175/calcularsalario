@@ -1,0 +1,38 @@
+#include <iostream.h>
+#include <stdlib.h>;
+
+#include <conio.h>
+
+
+int main()
+{
+     int a,b,c,d,multiplicacion,dias_extras,resta;
+     a=0;
+     b=0;
+     c=0
+     d=0;
+     
+     cout<<"escribe tu salario";
+     cin>>a;
+     cout<<"escribe tus dias trabajadiscout";
+     cin>>b;
+     cout<<multiplicacion= a*b;
+     cout<<"salario total";
+     cout<<multiplicacion <<endl;
+     cout<<"cuantos dias extras trabajaste";
+     cin>>c;
+     cout<<dias_extras= a*c;
+     cout<<"salario de dias extras";
+     cout<<dias_extras<<endl;
+     cout<<"si tienes prestamos de cuanto es";
+     cin>>d;
+     cout<<resta=(dias_extras+multiplicacion)-d;
+     cout<<"total de sueldo";     
+     cout<<resta <<endl;
+     cout<<"gracias por utilizar nuestros servivios";
+     system("pause");
+     
+     return 0;
+     
+     }
+    
