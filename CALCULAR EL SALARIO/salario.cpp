@@ -9,12 +9,12 @@ int main()
      int a,b,c,d,multiplicacion,dias_extras,resta;
      a=0;
      b=0;
-     c=0
+     c=0;
      d=0;
      
      cout<<"escribe tu salario";
      cin>>a;
-     cout<<"escribe tus dias trabajadiscout";
+     cout<<"escribe tus dias trabajados";
      cin>>b;
      cout<<multiplicacion= a*b;
      cout<<"salario total";
@@ -29,7 +29,7 @@ int main()
      cout<<resta=(dias_extras+multiplicacion)-d;
      cout<<"total de sueldo";     
      cout<<resta <<endl;
-     cout<<"gracias por utilizar nuestros servivios";
+     cout<<"gracias por preferirnos";
      system("pause");
      
      return 0;
