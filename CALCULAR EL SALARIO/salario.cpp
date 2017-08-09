@@ -12,7 +12,7 @@ int main()
      c=0;
      d=0;
      
-     cout<<"escribe tu salario neto";
+     cout<<"escribe tu salario total";
      cin>>a;
      cout<<"escribe tus dias trabajados";
      cin>>b;
