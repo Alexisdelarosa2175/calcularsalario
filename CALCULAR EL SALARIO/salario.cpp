@@ -12,24 +12,24 @@ int main()
      c=0;
      d=0;
      
-     cout<<"escribe tu salario";
+     cout<<"escribe tu salario total";
      cin>>a;
      cout<<"escribe tus dias trabajados";
      cin>>b;
      cout<<multiplicacion= a*b;
-     cout<<"salario total";
+     cout<<"tu salario total es";
      cout<<multiplicacion <<endl;
-     cout<<"cuantos dias extras trabajaste";
+     cout<<"cuantos dias extras trabajaste este mes";
      cin>>c;
      cout<<dias_extras= a*c;
-     cout<<"salario de dias extras";
+     cout<<"salario de dias extras este mes";
      cout<<dias_extras<<endl;
-     cout<<"si tienes prestamos de cuanto es";
+     cout<<"cuanto es tu prestamo";
      cin>>d;
      cout<<resta=(dias_extras+multiplicacion)-d;
-     cout<<"total de sueldo";     
+     cout<<"el total de tu sueldo es";     
      cout<<resta <<endl;
-     cout<<"gracias por preferirnos";
+     cout<<"gracias por utilizar nuestro sistema";
      system("pause");
      
      return 0;
